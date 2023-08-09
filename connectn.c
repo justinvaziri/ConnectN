@@ -146,7 +146,7 @@ void check_args(int arg_num, char** args) {
     // there must be four arguments, including executable
     if(arg_num < 4) {
         printf("Not enough arguments entered\n");
-        printf("Usage connectn.out num_rows num_columns number_of_pieces_in_a_row_needed_to_win");
+        printf("Usage: connectn.out num_rows num_columns number_of_pieces_in_a_row_needed_to_win");
         exit(0);
     }
     else if(arg_num > 4) {
